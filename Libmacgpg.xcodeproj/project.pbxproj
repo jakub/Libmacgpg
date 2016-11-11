@@ -40,7 +40,6 @@
 		1BD78BBA1726B6060005F251 /* Libmacgpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Libmacgpg.framework */; };
 		1BD78BBC1726B6230005F251 /* Libmacgpg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Libmacgpg.framework */; };
 		1BDA56BC1618A94300185C72 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4591C4D314F86D38007F6D47 /* AppKit.framework */; };
-		3002C04716EE38C900D57C1E /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3002C04316EE388B00D57C1E /* libcrypto.dylib */; };
 		300F3DB51B4AC2CE00E36AAA /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 300F3DB31B4AC2CE00E36AAA /* libbz2.dylib */; };
 		300F3DB61B4AC2CE00E36AAA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 300F3DB41B4AC2CE00E36AAA /* libz.dylib */; };
 		301A44CD1B436405002A38E4 /* GPGUnArmor.h in Headers */ = {isa = PBXBuildFile; fileRef = 301A44CB1B436405002A38E4 /* GPGUnArmor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,7 +70,6 @@
 		30444C4A1A65E4740052CB94 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3026F4AE13A203A000F3CA02 /* Security.framework */; };
 		30444C4B1A65E4790052CB94 /* SecurityFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3077AE881A6547D2001EC508 /* SecurityFoundation.framework */; };
 		30444C4C1A65E4800052CB94 /* libxar.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3002C04516EE389100D57C1E /* libxar.dylib */; };
-		30444C4D1A65E4B50052CB94 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3002C04316EE388B00D57C1E /* libcrypto.dylib */; };
 		30444C501A65E83D0052CB94 /* GPGTools.app in Resources */ = {isa = PBXBuildFile; fileRef = 30444C181A65E0590052CB94 /* GPGTools.app */; };
 		3048830B1462B11700F2E5F4 /* DirectoryWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 304883091462B11700F2E5F4 /* DirectoryWatcher.h */; };
 		3048830C1462B11700F2E5F4 /* DirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3048830A1462B11700F2E5F4 /* DirectoryWatcher.m */; };
@@ -447,7 +445,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30444C4D1A65E4B50052CB94 /* libcrypto.dylib in Frameworks */,
 				30444C4C1A65E4800052CB94 /* libxar.dylib in Frameworks */,
 				30444C4B1A65E4790052CB94 /* SecurityFoundation.framework in Frameworks */,
 				30444C4A1A65E4740052CB94 /* Security.framework in Frameworks */,
@@ -473,7 +470,6 @@
 				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
 				30BA88F2138FE593005982D9 /* SystemConfiguration.framework in Frameworks */,
 				3026F4AF13A203A000F3CA02 /* Security.framework in Frameworks */,
-				3002C04716EE38C900D57C1E /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
